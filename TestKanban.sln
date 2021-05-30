@@ -5,9 +5,28 @@ VisualStudioVersion = 16.0.31321.278
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestKanban", "TestKanban\TestKanban.csproj", "{42D4D6A9-831E-459E-B2C3-37F281068E8B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestKanban.Models", "TestKanban.Models\TestKanban.Models.csproj", "{F2B4A53A-7527-41AF-8DCA-743B46823F70}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestKanban.Models", "TestKanban.Models\TestKanban.Models.csproj", "{F2B4A53A-7527-41AF-8DCA-743B46823F70}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestKanban.Infrastructure", "TestKanban.Infrastructure\TestKanban.Infrastructure.csproj", "{8F6503CF-315B-48D8-9933-6233F9F27D4A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestKanban.Infrastructure", "TestKanban.Infrastructure\TestKanban.Infrastructure.csproj", "{8F6503CF-315B-48D8-9933-6233F9F27D4A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dll", "Dll", "{65E66BE3-1268-47B7-86B3-C7A362A8D6B8}"
+	ProjectSection(SolutionItems) = preProject
+		Dll\DevExpress.Data.Desktop.v21.1.dll = Dll\DevExpress.Data.Desktop.v21.1.dll
+		Dll\DevExpress.Data.v21.1.dll = Dll\DevExpress.Data.v21.1.dll
+		Dll\DevExpress.Office.v21.1.Core.dll = Dll\DevExpress.Office.v21.1.Core.dll
+		Dll\DevExpress.Pdf.v21.1.Core.dll = Dll\DevExpress.Pdf.v21.1.Core.dll
+		Dll\DevExpress.Pdf.v21.1.Drawing.dll = Dll\DevExpress.Pdf.v21.1.Drawing.dll
+		Dll\DevExpress.Printing.v21.1.Core.dll = Dll\DevExpress.Printing.v21.1.Core.dll
+		Dll\DevExpress.RichEdit.v21.1.Core.dll = Dll\DevExpress.RichEdit.v21.1.Core.dll
+		Dll\DevExpress.Sparkline.v21.1.Core.dll = Dll\DevExpress.Sparkline.v21.1.Core.dll
+		Dll\DevExpress.Utils.v21.1.dll = Dll\DevExpress.Utils.v21.1.dll
+		Dll\DevExpress.XtraBars.v21.1.dll = Dll\DevExpress.XtraBars.v21.1.dll
+		Dll\DevExpress.XtraEditors.v21.1.dll = Dll\DevExpress.XtraEditors.v21.1.dll
+		Dll\DevExpress.XtraGrid.v21.1.dll = Dll\DevExpress.XtraGrid.v21.1.dll
+		Dll\DevExpress.XtraLayout.v21.1.dll = Dll\DevExpress.XtraLayout.v21.1.dll
+		Dll\DevExpress.XtraPrinting.v21.1.dll = Dll\DevExpress.XtraPrinting.v21.1.dll
+		Dll\DevExpress.XtraTreeList.v21.1.dll = Dll\DevExpress.XtraTreeList.v21.1.dll
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
